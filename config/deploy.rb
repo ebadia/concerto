@@ -27,9 +27,13 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
+# set :stage,       :production
+# set :application, 'concerto'
+# set :repo_url,    'https://github.com/concerto/concerto.git'
+# set :user,        'deploy'
 set :stage,       :production
 set :application, 'concerto'
-set :repo_url,    'https://github.com/concerto/concerto.git'
+set :repo_url,    'https://github.com/ebadia/concerto.git'
 set :user,        'deploy'
 
 # uncomment this if you are deploying to a sub-uri
